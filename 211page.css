@@ -1,0 +1,317 @@
+body {
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+a:hover {
+    color: black;
+}
+
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    gap: 30px; 
+    padding-top: 50px; 
+    font-weight: bold;
+}
+
+
+.items {
+    border-radius: 40px; 
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+
+.items a {
+    font-size: 20px; 
+    text-decoration: none; 
+    color: #333; 
+    text-transform: uppercase;
+    transition: color 0.3s ease; 
+}
+
+
+.items:hover {
+    transform: scale(1.1); 
+    color: #4a90e2; 
+}
+
+.items:hover a {
+    color: #4a90e2;
+}
+
+
+
+         
+h1 {
+    margin: 0;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .private-theater {
+    text-align: center;
+    flex: 1;
+    padding-left: 50px; 
+    font-style: oblique;
+    text-decoration: #e184844d;
+    font-size: 40px;
+  }
+
+  .book-now {
+    margin-left: 30px;
+    padding: 15px 30px;
+    padding-left: 50px;
+    border-radius: 30px;
+    background-color: white; 
+    cursor: pointer;
+    box-shadow: 5px 5px 10px black;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .book-now:hover {
+    background-color: #ddd; 
+    transform: scale(1.05);
+  }
+
+
+         body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+         }
+
+         .image{
+            display:flex;
+            gap: 40px;
+            column-gap: 15px;
+            padding-top: 30px;
+            overflow: auto;
+            white-space: nowrap;
+            
+         }
+
+         .xyz{
+            display: flex;
+            width: 200%;
+            animation: scrollLeft 10s linear infinite;
+            column-gap: 15px;
+            color: rgb(175, 137, 86);   
+         }
+
+         @keyframes scrollLeft {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        img {
+            opacity: 1px;
+        }
+
+        .image::-webkit-scrollbar {
+            display: none;
+        }
+
+        .tejaimage {
+            border-radius:50%;
+            margin: 100px;
+        }
+
+        .data {
+            padding-top: 150px;
+            size: normal;
+        }
+
+
+        .overall {
+            position: absolute;
+            display: flex;
+        }
+
+
+        .nextoverall {
+            position: absolute;
+            display:flex;
+            padding-top: 600px;
+            padding-right: 100px;
+        }
+
+        .datadream {
+            padding-top: 100px;
+        }
+
+        .tejaimage2 {
+            border-radius: 50%;
+            margin: 200px;
+        }
+
+        .dot {
+            padding-left: 1000px;
+            padding-top: 480px;
+        }
+
+        .messibutton {
+            color: white;
+            background-color: aquamarine;
+            font-size: 40px;
+            border-radius: 30px;
+            cursor: pointer;
+            border: none;
+            padding: 15px 30px;
+        }
+
+        .messibutton:hover {
+            background-color: #20c997; 
+        }
+
+        .bubble {
+            padding-left: 1000px;
+            padding-top: 480px;
+        }
+
+        .hardhik {
+            color: white;
+            background-color: aquamarine;
+            font-size: 40px;
+            border-radius: 30px;
+            cursor: pointer;
+            border: none;
+            padding: 15px 30px;
+        }
+
+        
+        .hardhik:hover {
+            background-color: #20c997;
+        }
+
+
+        .youtube {
+            padding-left: 100px;
+            padding-top: 100px;
+            font-style: italic;
+            font-family: 'Pacifico', cursive;
+        }
+        
+        .youtube1 {
+            padding-left: 400px;
+            padding-top: 120px;
+            border-radius: 40px;
+        }
+
+        .youtube1 img {
+            border-radius: 40px;
+            overflow: hidden;
+        }
+
+        .youtube2 {
+            padding-left: 400px;
+            padding-top: 120px;
+            border-radius: 40px;
+        }
+
+        .youtube2 img {
+            border-radius: 40px;
+            overflow: hidden;
+        }
+        .youtube3 {
+            padding-left: 400px;
+            padding-top: 140px;
+            border-radius: 40px;
+        }
+
+        .youtube3 img {
+            border-radius: 40px;
+            overflow: hidden;
+        }
+
+        .youtube4 {
+            padding-left: 400px;
+            padding-top: 160px;
+            border-radius: 40px;
+        }
+
+        .youtube4 img {
+            border-radius: 40px;
+            overflow: hidden;
+        }
+
+
+
+
+
+
+        .contact-section {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #fff;
+            margin-top: 40px;
+        }
+    
+        .contact-section h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+    
+        .contact-info {
+            font-size: 20px;
+            color: #555;
+            margin: 10px 0;
+        }
+    
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    
+        /* Social Media Icons */
+        .social-icons {
+            margin-top: 20px;
+        }
+    
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 28px;
+            color: #007bff;
+            transition: transform 0.3s ease-in-out;
+        }
+    
+        .social-icons a:hover {
+            transform: scale(1.2);
+        }
+
+        
+        .headerx {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 100px;
+        }
+    
+        .book-now a {
+            text-decoration: none;
+            font-size: 40px; /* Adjust the size as needed */
+        }
